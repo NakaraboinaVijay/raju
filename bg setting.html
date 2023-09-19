@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background image setting </title>
+    <!-- <style>
+        body{
+            background-image: url(rat);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position-x: right;
+            background-position-y: top;
+            background-size: 50% 50%;
+        }
+        p{
+            color: chartreuse;
+        }
+    </style> -->
+</head>
+<body>
+
+     <!-- Source tag is used to add more image in one tag -->
+    <picture>
+        <source media="(min-width:550px)" srcset="bg.webp">
+        <source media="(min-width:465px)" srcset="butf.jpg">
+            <img src="rat.webp" alt="Butterfly" style="width:auto;">
+
+    </picture>
+    <p>By using Background IMAGE effect we have to create more effects on the picture.</p>
+</body>
+</html>
